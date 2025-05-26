@@ -1,0 +1,18 @@
+# OOP
+class A:
+    def show(self):
+        print("А")
+
+class B:
+    def show(self):
+        print("В")
+
+class C(A,B):
+    pass
+
+
+# object = C()создание класса c
+# object.show()вызываем метод show
+
+
+
